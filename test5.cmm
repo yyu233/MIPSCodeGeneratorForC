@@ -1,0 +1,20 @@
+void main(){
+	int b;
+	bool a;
+
+	a=true;
+	b=0;
+
+	if(a){
+		a=!a;	
+	}
+	while(b!=536){
+		b++;
+	}
+	if(true==true){
+		b++;
+	}
+	if(false==false){
+		b++;
+	}
+}

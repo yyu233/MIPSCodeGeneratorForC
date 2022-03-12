@@ -1,0 +1,52 @@
+java -cp ./deps:. P6 test.cmm test.s
+ProgramNode nameAnalysis
+DeclListNode name Analysis
+DeclListNode name Analysis
+FnDeclNode Analysis
+Function boday name analysis
+DeclListNode name Analysis
+Function boday name analysis going into stmt list
+Going into StmtListNode name analysis
+DeclListNode name Analysis
+Going into StmtListNode name analysis
+FnDeclNode Analysis
+Function boday name analysis
+DeclListNode name Analysis
+Function boday name analysis going into stmt list
+Going into StmtListNode name analysis
+Assign statement node analysis
+Assign Node Name Analysis
+Assign Node going into the expression list
+Assign statement node analysis
+Assign Node Name Analysis
+Assign Node going into the expression list
+FnDeclNode Analysis
+Function boday name analysis
+DeclListNode name Analysis
+Function boday name analysis going into stmt list
+Going into StmtListNode name analysis
+Assign statement node analysis
+Assign Node Name Analysis
+Assign Node going into the expression list
+Assign statement node analysis
+Assign Node Name Analysis
+Assign Node going into the expression list
+Assign statement node analysis
+Assign Node Name Analysis
+Assign Node going into the expression list
+Assign statement node analysis
+Assign Node Name Analysis
+Assign Node going into the expression list
+Assign statement node analysis
+Assign Node Name Analysis
+Assign Node going into the expression list
+DeclListNode name Analysis
+Going into StmtListNode name analysis
+Assign statement node analysis
+Assign Node Name Analysis
+Assign Node going into the expression list
+DeclListNode name Analysis
+Going into StmtListNode name analysis
+DeclListNode name Analysis
+Going into StmtListNode name analysis
+Makefile:60: recipe for target 'test' failed

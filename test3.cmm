@@ -1,0 +1,21 @@
+struct P { 
+	int a; 
+	bool b;
+};
+
+void main(){
+	struct P point; 
+	int c; 
+	int d;
+	point.a=0;
+	point.b=true;
+	
+
+	c=1;
+	cout<<c;
+	c=c;
+	cout<<c;
+	d=c;
+	cout<<d;
+	
+}

@@ -1,0 +1,10 @@
+void main(){
+	int a;
+	bool b; 
+	a=1;
+	b=true; 
+	cout <<a; 
+	cout <<b;
+	cout <<"p6";	
+
+}

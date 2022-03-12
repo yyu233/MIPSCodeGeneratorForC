@@ -1,0 +1,61 @@
+struct Complex{
+     int real; 
+     int img;     
+};
+
+int fib(int n){
+	if(n<=1){ 
+	   return n;
+	} 
+	return fib(n-1)+fib(n-2);
+}
+
+void add(int aR,  int aI, int bR, int bI){
+	int resR;
+	int resI;
+	
+	resR=aR+bR; 
+	cout<<"Real: ";
+	cout<< resR;
+ 
+	resI=aI+bI;
+	cout<< "Imaginary: ";
+	cout<< resI; 
+}
+
+void main (){
+	int n;
+	int res; 
+	int t;
+	struct Complex a; 
+	struct Complex b;
+	
+	a.real=536;
+	a.img=6;
+	b.real=125;
+	b.img=666;
+	
+	add(a.real, a.img, b.real, b.img);
+	
+	n=536;
+	
+	while(true){
+		res=fib(n);
+	 	
+		cout<<res;
+	
+		if((res/n)>=302 || (res/n)<367){
+			cout<<"Loris D'Antoni"; 
+			cout<<t;
+			return; 
+			
+		}else{
+			res--;
+			t++;
+			cout<<"()==||============>";
+		}
+	}
+	
+}
+
+
